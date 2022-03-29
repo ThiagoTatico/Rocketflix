@@ -14,6 +14,7 @@ function getMovie() {
   axios.get(url)
     .then(response => {
       overviews.textContent = response.data.overview
+      movie_title.textContent = response.data.original_title
     })
     .catch(error => console.error(error))
 }
