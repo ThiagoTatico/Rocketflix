@@ -1,10 +1,79 @@
 /* Global ================================================================= */
+:root {
+  --title: #fffcf9;
+  --subtitle: #b3b3b3;
+  --bg-button: #e9e6e3;
+  --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 }
 
 html {
   font-size: 93.75%; /* 15px */
+}
+
+/* Main ================================================================= */
+
+body {
+  background-image: var(--background);
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7.88rem;
+}
+
+#arrow {
+  width: 95px;
+  margin-bottom: 17px;
+}
+
+h1 {
+  color: var(--title);
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+#movies {
+  
+}
+
+#arrow_button {
+  width: 37px;
+  height: 25px;
+}
+
+button {
+  margin-top: 30px;
+  margin-bottom: 26px;
+  width: 180px;
+  height: 3rem;
+  font-size: 13.5px;
+  line-height: 18px;
+  font-weight: 700;
+  color: black;
+  background-color: var(--bg-button);
+  border: 2px;
+  border-radius: 5px;
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: var(--subtitle);
+  line-height: 21px;
+  text-align: center;
 }
