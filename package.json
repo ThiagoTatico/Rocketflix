@@ -1,0 +1,24 @@
+{
+  "name": "rocketflix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoTatico/Rocketflix.git"
+  },
+  "keywords": [],
+  "author": "Thiago Tatico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiagoTatico/Rocketflix/issues"
+  },
+  "homepage": "https://github.com/ThiagoTatico/Rocketflix#readme",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
