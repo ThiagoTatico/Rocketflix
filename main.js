@@ -1,5 +1,3 @@
-//const axios = require('axios')
-
 import { API_KEY, BASE_URL, IMG_URL, language } from './api.js'
 
 function getRandomInt(min, max) {
@@ -13,5 +11,11 @@ let random_id = getRandomInt(1, 740000)
 const url = `${BASE_URL}${random_id}?${API_KEY}&${language}`
 
 function getMovie() {
-  
+  axios.get(url)
+    .then(response => {
+      overviews.textContent = response.data.overview
+    })
+    .catch(error => console.error(error))
 }
+
+getMovie()
