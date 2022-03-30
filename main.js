@@ -20,8 +20,7 @@ function getMovie() {
 
       if (imageUrl == 'https://image.tmdb.org/t/p/w500null') {
         movie_image.src = './assets/code.jpg'
-        movie_title.textContent =
-          'Ops, hoje não é dia de assistir filme. Bora codar! 🚀'
+        movie_title.textContent = 'Ops, hoje não é dia de assistir filme. Bora codar! 🚀'
         overviews.textContent = ''
         return
       }
