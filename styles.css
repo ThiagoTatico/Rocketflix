@@ -42,7 +42,7 @@ body {
   color: var(--title);
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 #moviesContainer {
@@ -50,7 +50,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 550px;
+  width: 40rem;
 }
 
 #movie_title {
