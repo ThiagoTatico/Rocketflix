@@ -30,7 +30,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 7.88rem;
+  margin-top: 35px;
 }
 
 #arrow {
@@ -42,23 +42,31 @@ body {
   color: var(--title);
   font-size: 2.5rem;
   font-weight: bold;
-
+  margin-bottom: 15px;
 }
 
 #moviesContainer {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 550px;
 }
 
 #movie_title {
-
+  color: var(--title);
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #overviews {
-
+  color: var(--title);
+  font-size: 16px;
+  font-weight: 400;
 }
 
 #movie_image {
-
+  width: 250px;
 }
 
 #arrow_button {
@@ -70,9 +78,8 @@ button {
   margin-top: 30px;
   margin-bottom: 26px;
   width: 180px;
-  height: 3rem;
+  height: 48px;
   font-size: 13.5px;
-  line-height: 18px;
   font-weight: 700;
   color: black;
   background-color: var(--bg-button);
